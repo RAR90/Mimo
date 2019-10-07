@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mimo - Lista de Tarefas</title>
+    <style>
+        body {
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mimo</h1>
+    <h2>06/08/2018</h2>
+    <ol>
+        <li>&#10004;Fotos em thumbnail nas categorias e prestadores de serviço;</li>
+        <li>&#10004;Na tela Serviço, deixar a fonte branca;</li>
+        <li>&#10004;Crop circular nas imagens;</li>
+        <li>&#10004;Meus dados sem teclado, foto de perfil, dados de leads e plano;</li>
+        <li>&#10004;Tela de introdução;</li>
+        <li>Informação de distância na pesquisa (em km e minutos);</li>
+        <li>Check in (serviço completo);</li>
+        <li>Avaliação estrelinhas;</li>
+        <li>Favoritos sem destaque ao lado dos serviços;</li>
+        <li>Travar o cadastro dos prestadores sem endereço. Obrigatório endereço ou informar “sem endereço fixo”.</li>
+    </ol>
+    <h2>Lista de Tarefas</h2>
+    <ol>
+        <li>&#10004; Adicionar conversa na lista de conversas (My Deals) do prestador de serviço (atualmente só abre no Deals
+            de quem iniciou o contato)</li>
+        <li>&#10004; Configurar dados da notificação</li>
+        <li>&#10004; Adicionar trecho da mensagem na classe Conversation para ser usada de thumbnail na listagem</li>
+        <li>&#10004; Ao clicar em uma notificação, abrir a tela de conversas</li>
+        <li>&#10004; Na aba de conversas, organizar conversas por data da última mensagem</li>
+        <li>&#10004; Na aba de conversas, mostrar "new" destacando mensagens não lidas</li>
+        <li>&#10004; Na aba de conversas, sinalizar de onde veio a última mensagem</li>
+        <li>&#10004; Inserir informações de localização no objeto de usuário</li>
+        <li>&#10004; Atualizar a localização a cada mudança de status no nó pertencente ao usuário</li>
+        <li>&#10004; Criar popup de seleção dos filtros</li>
+        <li>&#10004; Corrigir layout da tela de login</li>
+        <li>&#10004; Corrigir layout da tela de validacao</li>
+        <li>&#10004; Inserir tela de aceitar termos de uso</li>
+        <li>&#10004; Concluir fragmento de cadastro para o usuário tornar-se prestador de serviço</li>
+        <li>&#10004; Implementar o controle de conexão com a internet (testar como é feito no Strave)</li>
+        <li>&#10004; Criar vinculo na listagem para mostrar detalhes do serviço</li>
+        <li>&#10004; Criar flag no objeto do usuário para saber se ele é um prestador de serviço ou não, essa flag vai ser utilizada
+            para informar se o cliente efetuou o pagamento</li>
+        <li>&#10004; Criar atividade para o usuário atualizar seus dados</li>
+        <li>&#10004; Criar upload e captura de foto na atividade de cadastro do usuário</li>
+        <li>&#10004; Criar upload e captura de foto na atividade de atualização de dados do usuário</li>
+        <li>&#10004; Corrigir defeito de crashar quando apenas 1 usuário </li>
+        <li>&#10004; Trocar Coordinator Layout por Constraint layout (em todos as atividades e fragmentos)</li>
+        <li>&#10004; Tonar as janelas resizible</li>
+        <li>&#10004; Adequar sistema de permissões</li>
+        <li>&#10004; Trocar FABs para componente novo</li>
+        <li>&#10004; Corrigir sistema de notificações (implementar sistema de Canais)</li>
+        <li>&#10004; Quando o usuário entrar na atividade de atualizar dados, trazer preenchido</li>
+        <li>&#10004; Concluir fragmento que permite o usuário escolher os serviços prestados</li>
+        <li>&#10004; Corrigir upload de imagens, app crashando em alguns cassos (averiguar)</li>
+        <li>&#10004; Recuperar imagem do usuário na listagem de usuários por serviço</li>
+        <li>&#10004; Recuperar imagem do usuário na lista de Deals</li>
+        <li>&#10004; Atualizar controle de internet</li>
+        <li>&#10004; Recuperar do fireBase o texto de Sobre</li>
+        <li>&#10004; Na aba "Offer Service", recuperar o custo mensal do serviço pelo DB</li>
+        <li>&#10004; Implementar máscara de data nas atividades de cadastro</li>
+        <li>&#10004; Corrigir popover do placeholder do fragmento "Deals"</li>
+        <li>&#10004; Implementar detalhes do prestador de serviço dentro da aba de chat (informações e qualificação)</li>
+        <li>&#10004; Atualizar controle de localização</li>
+        <li>* sistema de filtragem com filtros cumulativos em serviço</li>
+        <br>
+        <h3>Reunião - 01/12/2017</h3>
+        <li>&#10004; Na tela de login, corrigir cor dos textos</li>
+        <li>&#10004; Na tela de validação, corrigir cor dos textos</li>
+        <li>&#10004; Inserir rolagem na tela de cadastro e atualização de dados do usuário</li>
+        <li>&#10004; Na seleção de serviços, mostrar Toast à medida que o usuário for selecionando ("Serviço selecionado")</li>
+        <li>** Inserir no final da lista de seleção de serviços, um botão para levar até a atividade principal</li>
+        <li>&#10004; Corrigir busca (catecteres especiais, maiúsculas, acentos e palavras isoladas)</li>
+        <li>&#10004; Verificar e corrigir notificações</li>
+        <li>&#10004; Criar conversas baseadas no serviço e não no usuário (cada serviço criar uma nova conversa)</li>
+        <br>
+        <h3>Novo - 04/12/2017 (Alterações e correções que surgiram nos testes e durante o desenvolvimento pós reunião do dia
+            01/12/2017)
+        </h3>
+        <li>&#10004; Fazer checagem se o usuário é worker na view de oferecer serviço pelo firebase (atualmente é pelo shared
+            preferences)
+        </li>
+        <li>&#10004; Inserir preloader na página de upload de imagem caso o usuário seja work, se ele não for, inserir placeholder</li>
+        <li>&#10004; Redimensionar e tratar a imagem no upload</li>
+        <li>&#10004; Cache muito demorado nas fotos da listagem de usuários por serviço</li>
+        <li>&#10004; Inserir detalhes do serviço na classe Conversation</li>
+        <li>&#10004; No chat, apenas aparecer classificar e informações se o usuario for worker</li>
+        <li>&#10004; App crasha quando o usuario ainda não tem classificação</li>
+        <li>&#10004; Fazer checagem se o usuário é worker na view principal para ocultar e desocultar a opção de atualizar dados
+            e imagem de perfil (aparecer apenas se for worker)</li>
+        <li>&#10004; Corrigir loading de imagens que às vezes não desaparece depois da imagem carregada</li>
+        <li>&#10004; Corrigir contador de feras</li>
+        <li>&#10004; App crasha quando um usuário está com um servico aberto e outro entra pra listagem</li>
+        <li>&#10004; Corrigir imagem no upload de imagem do perfil (ela gira dependendo da proporção)</li>
+        <li>&#10004; Corrigir barra de offline que está aparecendo antes de terminar o loading</li>
+        <li>&#10004; Testar curso de cadastro e liberação para tornar-se worker</li>
+    </ol>
+    <h3>Observações</h3>
+    <ul>
+        <li>* Ficou à ser decidido pelo cliente quais pontos os filtros abrangerão, por exemplo, se irá constar filtro de gênero
+            e como os filtros afetarão a regra de negócio, portanto, essa ferramenta foi ocultado e poderá ser lançada após
+            o aplicativo ser lançado, o que garantirá também um ambiente de testes mais qualificado para verificarmos quais
+            filtros realmente serão úteis para o usuário, inicialmente, a categorização segue a ordem de proximidade</li>
+        <li>** Verificar se posso sugerir uma solução alternativa (levando muito tempo para fazer)</li>
+    </ul>
+</body>
+
+</html>

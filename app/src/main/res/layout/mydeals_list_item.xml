@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_user_image_conversation">
+
+
+        <TextView
+            android:id="@+id/dealer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exemplo Nome"
+            android:textColor="@color/secondaryDarkColor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/dealer_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem upsum dolor sit amet voluptat adispicin"
+            android:textColor="@color/secondaryDarkColor"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dealer_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+55 16 00000-0000"
+            android:textColor="@color/secondaryDarkColor"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/newMessageFlag"
+        android:layout_width="41dp"
+        android:layout_height="19dp"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="new"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout3" />
+
+    <ImageView
+        android:id="@+id/iv_user_image_conversation"
+        android:layout_width="64dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout3"
+        app:srcCompat="@drawable/circle_placeholder" />
+
+
+</android.support.constraint.ConstraintLayout>

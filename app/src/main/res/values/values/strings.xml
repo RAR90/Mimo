@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Suporte Teclabs</string>
+    <string name="suporte_teclabs">Suporte Teclabs</string>
+    <string name="validation_title">Validation</string>
+    <string name="validation_text">You will receive a SMS with a code to validate your sign in. Enter received code in field below.</string>
+    <string name="button_validate">Validate</string>
+    <string name="button_register">Register</string>
+    <string name="hint_name">Your name</string>
+    <string name="hint_phone">Your Phone (Ex.: 16 98765&#8211;4321)</string>
+    <string name="hint_code">Enter code (4 Digits)</string>
+    <string name="sms_error_msg">Something go wrong, SMS cannot be sand!</string>
+    <string name="activation_code_msg">Your code activation is:</string>
+    <string name="validation_code_label">Validation Code</string>
+    <string name="icon_user">User icon</string>
+    <string name="user_phone_icon">User phone icon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ftalk_test_string">My Talks</string>
+    <string name="fContacts_test">My Contacs</string>
+    <string name="label_chat_msg">Enter your message</string>
+    <string name="send_msg_button">Send button</string>
+</resources>

@@ -1,0 +1,23 @@
+@startuml
+
+class User {
+    id
+    FcmToken
+    name
+    phone
+    getters();
+    setters();
+}
+
+class Service {
+
+    id;
+    name;
+    description;
+
+    getters();
+    setters();
+}
+
+
+@enduml

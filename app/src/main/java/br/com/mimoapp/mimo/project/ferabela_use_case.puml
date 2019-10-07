@@ -1,0 +1,29 @@
+@startuml
+
+:Usuário: as user
+:Prestador de serviço: as worker
+
+(Listar todos os serviços) as services_list
+(Buscar serviço) as search_service
+(Ver prestadores do serviço) as view_workers
+(Cadastrar-se como prestador de serviço) as sign_in
+(Escolher serviço a ser prestado) as choose_service
+(Oferecer serviços) as offer_service
+(Atualizar dados pessoais) as update_personal_info
+
+search_service ..> services_list
+
+user --> view_workers
+user -> sign_in
+user --> search_service
+
+services_list <....> view_workers
+
+choose_service <...> offer_service
+
+worker ---> offer_service
+worker --> choose_service
+worker ---> update_personal_info
+offer_service ...> services_list
+
+@enduml

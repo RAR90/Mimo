@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="@string/be_partner"
+            android:textAlignment="center"
+            android:textColor="@color/primaryColor"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/offer_service"
+            android:textAlignment="center"
+            android:textColor="@color/secondaryLightColor"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/be_partner"
+            app:srcCompat="@drawable/ic_partner" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_price"
+                android:layout_alignBottom="@+id/tv_price"
+                android:layout_toLeftOf="@+id/tv_price"
+                android:layout_toStartOf="@+id/tv_price"
+                android:gravity="start"
+                android:text="@string/brl"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryColor"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteY="298dp" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="start"
+                android:text="@string/zero_two_digits"
+                android:textAlignment="viewStart"
+                android:textColor="@color/primaryColor"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="286dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_price"
+                android:layout_alignBottom="@+id/tv_price"
+                android:layout_toEndOf="@+id/tv_price"
+                android:layout_toRightOf="@+id/tv_price"
+                android:gravity="end"
+                android:text="@string/per_month"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/primaryColor"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteY="298dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingEnd="32dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:paddingStart="32dp"
+            android:text="@string/lorem_paragraph"
+            android:textAlignment="center"
+            android:textColor="@color/secondaryLightColor"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="@string/signup_uppercase"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+
+
+

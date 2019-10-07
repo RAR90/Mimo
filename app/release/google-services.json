@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "131077673848",
+    "firebase_url": "https://ferabela-f2d7a.firebaseio.com",
+    "project_id": "ferabela-f2d7a",
+    "storage_bucket": "ferabela-f2d7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131077673848:android:08f3a57e27fd0b60",
+        "android_client_info": {
+          "package_name": "br.com.mimoapp.mimo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131077673848-rg6gtphpen3s50i8qfrb7iv92oued6rb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.mimoapp.mimo",
+            "certificate_hash": "6166c498721408d212a3e0c4f2eb4e2c73c91223"
+          }
+        },
+        {
+          "client_id": "131077673848-3nqcqq5hda1941qt61l8c7g4qc9q5jbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK1ugtwSXBVhiDHcSqJ8TGTMarf_XYX7c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131077673848-3nqcqq5hda1941qt61l8c7g4qc9q5jbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

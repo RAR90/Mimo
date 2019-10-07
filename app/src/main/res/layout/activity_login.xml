@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.mimoapp.mimo.activity.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mimobackground">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp">
+
+
+            <ImageView
+                android:id="@+id/mainLogo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="100dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/suporte_teclabs"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/mimologotipo" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/userNameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="0"
+                android:textColorHint="@color/primaryColor"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mainLogo">
+
+                <EditText
+                    android:id="@+id/userName"
+
+                    style="@style/MyEditText"
+                    android:theme="@style/MyEditText"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="@string/hint_name"
+                    android:inputType="textPersonName"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/primaryTextColor"
+                    android:textColorHighlight="@color/primaryColor"
+                    android:textColorHint="@color/primaryColor"
+                    android:textColorLink="@color/primaryColor"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/userPhone" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/userPhoneLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textColorHint="@color/primaryColor"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/userNameLayout">
+
+                <EditText
+                    android:id="@+id/userPhone"
+
+                    style="@style/MyEditText"
+                    android:theme="@style/MyEditText"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="8dp"
+
+                    android:ems="10"
+                    android:hint="@string/hint_phone"
+                    android:inputType="phone"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/primaryTextColor"
+                    android:textColorHighlight="@color/primaryColor"
+                    android:textColorHint="@color/primaryColor"
+                    android:textColorLink="@color/primaryColor"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mainLogoText"
+
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/userRegisterBtn"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_register"
+                android:textSize="18sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/userPhoneLayout" />
+
+
+            <Button
+                android:id="@+id/termsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="0"
+                android:background="@android:color/transparent"
+                android:contentDescription="Termos e condições de uso"
+                android:text="Termos e condições de uso"
+                android:textColor="@color/grey_500"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/userRegisterBtn"
+                tools:text="Termos e condições de uso" />
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

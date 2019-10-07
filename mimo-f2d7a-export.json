@@ -1,0 +1,119 @@
+{
+  "app" : {
+    "about" : {
+      "text" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "title" : "About Mimo"
+    },
+    "price" : {
+      "cents" : "39",
+      "units" : "90"
+    }
+  },
+  "service_users" : [ {
+    "zHnOHocJyBcVkWchK2hKV2iDHJI3" : {
+      "id" : "zHnOHocJyBcVkWchK2hKV2iDHJI3",
+      "latitude" : "-21.17701434016944",
+      "longitude" : "-47.80134316907197",
+      "name" : "Rafael",
+      "phone" : "+5516981060796"
+    }
+  }, {
+    "zHnOHocJyBcVkWchK2hKV2iDHJI3" : {
+      "id" : "zHnOHocJyBcVkWchK2hKV2iDHJI3",
+      "latitude" : "-21.17701434016944",
+      "longitude" : "-47.80134316907197",
+      "name" : "Rafael",
+      "phone" : "+5516981060796"
+    }
+  }, {
+    "zHnOHocJyBcVkWchK2hKV2iDHJI3" : {
+      "latitude" : -21.17616317618942,
+      "longitude" : -47.77469111397575
+    }
+  }, {
+    "zHnOHocJyBcVkWchK2hKV2iDHJI3" : {
+      "latitude" : -21.17616317618942,
+      "longitude" : -47.77469111397575
+    }
+  } ],
+  "services" : [ {
+    "description" : "Carro, moto, veículo, manutenção veicular, mecânico, reparo automóvel, arrumar motor, oficina",
+    "id" : "0",
+    "name" : "Mecânica de automóveis"
+  }, {
+    "description" : "Desentupidora, conserto encanamento, reforma tubulação, água fria, água quente, limpeza caixa d'água",
+    "id" : "1",
+    "name" : "Hidráulica residencial"
+  }, {
+    "description" : "Confecção de roupas, calças, camisas, vestidos para festa, vestidos de noiva, consertos em roupas, ternos",
+    "id" : "2",
+    "name" : "Corte e costura"
+  }, {
+    "description" : "Pedereiro, reformas telhado, demolição, assentar piso, construir, reformar",
+    "id" : "3",
+    "name" : "Construção Civil"
+  }, {
+    "description" : "Auxiliares gerais, office boy, office girl, auxiliar de limpeza, jardinagem",
+    "id" : "4",
+    "name" : "Serviços gerais"
+  }, {
+    "description" : "Faxina, limpeza residencial, higienização, diarista",
+    "id" : "5",
+    "name" : "Diaristas (limpeza)"
+  }, {
+    "description" : "Cuidador de idosos, crianças, pessoas com necessidades especiais, babás",
+    "id" : "6",
+    "name" : "Cuidador / cuidadora"
+  }, {
+    "description" : "Carona de carro, Uber, Taxi, carona casual",
+    "id" : "7",
+    "name" : "Carona de carro"
+  }, {
+    "description" : "Carona de moto, mototaxi, carona casual",
+    "id" : "8",
+    "name" : "Carona de moto"
+  }, {
+    "description" : "Frete de caminhão, caminhonete, carro e moto, entregas, carretos",
+    "id" : "9",
+    "name" : "Fretes e carretos"
+  }, {
+    "description" : "Glandulas, médicos, médico especialista, clinica médica",
+    "id" : "10",
+    "name" : "Endocrinologista"
+  } ],
+  "user_location" : {
+    "zHnOHocJyBcVkWchK2hKV2iDHJI3" : {
+      "latitude" : -21.176616902740392,
+      "longitude" : -47.794451603679676
+    }
+  },
+  "user_services" : {
+    "zHnOHocJyBcVkWchK2hKV2iDHJI3" : {
+      "services" : [ {
+        "id" : "0",
+        "name" : "Mecânica de automóveis"
+      }, {
+        "id" : "1",
+        "name" : "Hidráulica residencial"
+      } ]
+    }
+  },
+  "users" : {
+    "+5516981060796" : {
+      "id" : "zHnOHocJyBcVkWchK2hKV2iDHJI3",
+      "name" : "Rafael",
+      "phone" : "+5516981060796"
+    }
+  },
+  "workers" : {
+    "zHnOHocJyBcVkWchK2hKV2iDHJI3" : {
+      "birthDate" : "26/03/1990",
+      "email" : "rafael@teste.com",
+      "gender" : "Masculino",
+      "id" : "zHnOHocJyBcVkWchK2hKV2iDHJI3",
+      "lastName" : "Antonio",
+      "name" : "Rafael",
+      "status" : "1"
+    }
+  }
+}

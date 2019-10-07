@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#ff9800</color>
+    <color name="primaryLighterColor">#fff3e0</color>
+    <color name="primaryLightColor">#ffcc80</color>
+    <color name="primaryDarkColor">#ef6c00</color>
+
+    <color name="secondaryColor">#424242</color>
+    <color name="secondaryLightColor">#6d6d6d</color>
+    <color name="secondaryDarkColor">#1b1b1b</color>
+
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <!-- Custom color configs -->
+    <color name="foregroundBody">#fafafa</color>
+    <color name="text_color_secondary">#1b1b1b</color>
+
+    <color name="warnPrimaryColor">#ffffd63a</color>
+    <color name="warnBackgroundColor">#fffffbe8</color>
+    <color name="white">#fefefe</color>
+    <color name="black">#151515</color>
+
+
+</resources>
