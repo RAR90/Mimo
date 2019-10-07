@@ -1,0 +1,1 @@
+Aplicativo para Android integrado ao Firebase. Rede social de venda de serviços estilo Whatsapp + Uber.
